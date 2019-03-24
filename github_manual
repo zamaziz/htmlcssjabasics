@@ -1,0 +1,34 @@
+GITHUB
+
+origin remote repo on git hub
+https://github.com/zamaziz/htmlcssjabasics.git
+
+add new remote storage <origin> short name
+git remote add origin https://github.com/zamaziz/htmlcssjabasics.git
+
+look for remote storage
+git remote -v
+
+push existing local repo to github
+git push [remote name] [branch name]
+git push origin master
+
+fetch data from remote (получение изменений из удаленного репозитория)
+git fetch [remote name]
+
+rename remote server
+git remote rename [old_name] [new_Name]
+
+delete remote server
+git remote [remote server]
+
+GIT LOCAL COMMAND
+git init /* initialize empty Git repository in current directory
+git status /* check status of Git repository
+git add <file.name> /* add file to track what will be committed. Commit is new file version, after changes are commited
+git add . /* add all files from current directory
+git add --all /* add all files from children directory
+git commit -m "Initial commit" /* commit changes to all files added in working directory
+git log /* show change history
+git reset HEAD~ /* Отменить последний коммит, но сохранить изменения
+git reset --hard HEAD~ /* Удалить последний коммит и откатить изменения HEAD~ == предыдущий коммит
